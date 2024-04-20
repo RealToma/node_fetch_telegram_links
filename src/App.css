@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+* {
+  user-select: none;
+}
+div.telegramlink {
+  background-color: #282c34;
+  width: 100vw;
+  height: 100vh;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-gap: 20px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+div.latestNumber {
+  background-color: white;
+  padding: 8px 16px;
+  border-radius: 100px;
+  font-size: 30px;
+  line-height: 1em;
+  color: #282c34;
+  display: flex;
+  box-sizing: border-box;
+}
